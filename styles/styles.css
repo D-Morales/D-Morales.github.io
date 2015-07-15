@@ -1,54 +1,19 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 body
 {
-  background: rgba(190, 190, 190, .5);
-  font-family: 'Roboto Condensed', 'Arial', sans-serif;
-  transition: all 2s;
-  border: 1px solid #333;
-  box-shadow: 0 1px 2px #000;
+  background-color: rgba(150, 150, 150, 1);
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
 }
-h1
+iframe
 {
-  color: turquoise;
-  background: rgba(255, 255, 255, 1)
-}
-h1:hover
-{
-  background: red;
-}
-h2
-{
-  color: red;
-}
-h3
-{
-  color: magenta;
+  width: 500px;
+  margin: -500 auto;
+  text-align: left;
 }
 p
 {
-  color: green;
-}
-header
-{
-  background: rgba(255, 255, 255, 1);
-  padding: 5px 10px;
-  border-style: solid;
-  border-color: red;
-  border-radius: 3px;
-}
-section
-{
-  background: rgba(255, 255, 255, 1);
-  padding: 0px 10px;
+  margin: 50 auto;
   text-align: center;
-}
-li
-{
-  color: blue;
-  text-align: left;
-}
-ul
-{
-    color: green;
-    text-align: left;
 }
